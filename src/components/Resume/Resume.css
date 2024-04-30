@@ -1,0 +1,25 @@
+.resume{
+    width: 100%;
+}
+.resume .heading{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+/* .resume .container .nav{
+    width: 25%;
+    padding: 0 15px;
+}
+.resume .container .nav ul{
+    text-align: left;
+}
+.resume .container .nav ul li{
+    font-weight: 700;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.resume .container .nav ul li a{
+    color: #000;
+    margin-left: 20px;
+    position: relative;
+} */

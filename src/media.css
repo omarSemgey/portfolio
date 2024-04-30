@@ -1,0 +1,109 @@
+@media (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    .nav-bar .links{
+        display: none ;
+    }
+    .nav-bar .drop-down{
+        display: block;
+    }
+    .nav-bar .container{
+        flex-wrap: wrap;
+    }
+    .about .avatar{
+        background: none;
+    }
+    .about .container{
+        display: block;
+    }
+    .about .about-text{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .resume .skills .skills-info{
+        display: block;
+    }
+    .resume .skills .skills-info .skill{
+        width: 100%;
+    }
+    .services .spacial-container{
+        padding: 0;
+    }
+    .services .cards{
+        display: block;
+    }
+    .services .cards .card{
+        width: 100%;
+    }
+    .projects .items{
+        display: block;
+        padding: 0 15px;
+    }
+    .projects .items .item{
+        width: 100%;
+    }
+    .projects .cards{
+        display: block;
+    }
+    .projects .cards .card{
+        width: 100%;
+    }
+    .contact .cards{
+        display: block;
+    }
+    .contact .cards .card{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact .contact-info{
+        display: block;
+    }
+    .contact .contact-info img {
+        display: none !important;
+    }
+    .contact .contact-info form{
+        width: 100%;
+        text-align: center !important;
+    }
+}
+/* 993 */
+@media (min-width: 768px) {
+    .container{
+        max-width: 960px;
+    }
+    .nav-bar .links{
+        display: none ;
+    }
+    .nav-bar .drop-down{
+        display: block ;
+    }
+    .nav-bar .container{
+        flex-wrap: wrap;
+    }
+    .nav-bar .links-active ul{
+        text-align: left;
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+    .contact .cards .card{
+        width: 50%;
+    }
+}
+@media (min-width:991px){
+    .nav-bar .drop-down{
+        display: none !important;
+    }
+    .nav-bar .links{
+        display: flex !important;
+    }
+    .contact .cards .card{
+        width: 25%;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}

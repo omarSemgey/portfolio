@@ -1,0 +1,84 @@
+.contact{
+    width: 100%;
+}
+.contact .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.contact .cards .card{
+    padding: 0 15px;
+    width: 25%;
+}
+.contact .cards .card .card-wrapper{
+    padding: 24px;
+    width: 100%;
+    height: calc(100% - 20px);
+    box-shadow: 0 0.8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+.contact .cards .card .icon-container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .cards .card .icon-container .icon{
+    color: #fff;
+    font-size: 30px;
+}
+.contact .cards .card .card-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact .cards .card .text{
+    margin-top: 0;
+    color: #999;
+}
+.contact .contact-info{
+    display: flex;
+    margin-top: 30px;
+}
+.contact .contact-info img{
+    width: 50%;
+}
+.contact .contact-info form {
+    width:50%;
+    text-align: left;
+}
+.contact .contact-info form{
+    padding: 48px;
+    background: #f8f9fa !important;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.contact .contact-info form input:not(:last-child),
+.contact .contact-info form textarea{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 16px;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 6px 12px;
+}
+.contact .contact-info form input{
+    height: 52px !important;
+    background: #fff ;
+    color: #000;
+}
+.contact .contact-info form .send{
+    border: 1px solid !important;
+    color: #fff !important;
+    border-radius: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 16px 48px;
+    cursor: pointer;
+}

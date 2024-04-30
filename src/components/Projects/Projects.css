@@ -1,0 +1,79 @@
+.projects{
+    width: 100%;
+}
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.items .item{
+    position: relative;
+    width: 33.33%;
+    height: 350px;
+}
+.items .item img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 0;
+}
+.projects .items .item .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.projects .items .item .overlay .text{
+    max-width: 80%;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.projects .items .item .overlay .text h3{
+    font-size: 20px;
+    color: #fff;
+}
+.projects .items .item .overlay .text span{
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.items .item:hover .overlay{
+    opacity: .9;
+}
+.projects .cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects .cards .card{
+    padding: 0px 15px;
+}
+.projects .cards .card-wrapper{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+.projects .cards .card .text .number{
+    padding: 5px 60px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+}
+.projects .cards .card .text .card-title{
+    padding: 5px 60px;
+    display: block;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}

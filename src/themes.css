@@ -1,0 +1,21 @@
+/*
+    bg => background
+    c => color
+    b => border
+    a => after
+*/
+:root{
+    --blue:#3e64ff;
+}
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+.c-blue{
+    color: var(--blue) !important;
+}
+.b-blue{
+    border-color: var(--blue) !important;
+}
+.a-blue::after{
+    background: var(--blue) !important;
+}
